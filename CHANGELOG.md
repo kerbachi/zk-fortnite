@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.0 — Interactive greybox demo
+
+- Browser demo under `demo/`: stub OAuth → username → mode select.
+- Offline (and Online Singleplayer) Three.js arena: move, shoot, build, storm, bots.
+
 ## 0.5.1 — Dedicated repository
 
 - Project hosted at https://github.com/kerbachi/zk-fortnite

@@ -21,7 +21,17 @@ Browser battle-royale game inspired by Fortnite’s core loop — drop, loot, bu
 
 ## Status
 
-Specification only. Implementation has not started.
+Specification complete. Interactive **greybox demo** available under [`demo/`](demo/) (menu flow + offline arena).
+
+## Interactive demo
+
+```bash
+cd demo
+npm install
+npm run dev
+```
+
+Open the printed local URL (default `http://localhost:5173`). Stub sign-in → username → Offline (or Online Singleplayer) to play: WASD move, mouse aim, click shoot, `B` / right-click build, storm shrinks.
 
 ## Play flow (summary)
 
@@ -35,7 +45,8 @@ Specification only. Implementation has not started.
 
 ```bash
 git clone https://github.com/kerbachi/zk-fortnite.git
-cd zk-fortnite
-# later: npm install && npm run dev   # client
-# later: npm run dev:server           # API, auth, matchmaking, game servers
+cd zk-fortnite/demo
+npm install
+npm run dev
+# later: API, auth, matchmaking, authoritative game servers
 ```
